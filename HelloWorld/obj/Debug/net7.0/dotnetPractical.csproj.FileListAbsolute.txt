@@ -1,0 +1,15 @@
+C:\Users\madar\OneDrive\Documents\dotnetPractical\bin\Debug\net7.0\dotnetPractical.exe
+C:\Users\madar\OneDrive\Documents\dotnetPractical\bin\Debug\net7.0\dotnetPractical.deps.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\bin\Debug\net7.0\dotnetPractical.runtimeconfig.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\bin\Debug\net7.0\dotnetPractical.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\bin\Debug\net7.0\dotnetPractical.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.csproj.AssemblyReference.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.AssemblyInfoInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.AssemblyInfo.cs
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.csproj.CoreCompileInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\refint\dotnetPractical.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\dotnetPractical.genruntimeconfig.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\obj\Debug\net7.0\ref\dotnetPractical.dll
