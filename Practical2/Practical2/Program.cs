@@ -63,7 +63,7 @@
 
         //Random rand = new Random();
 
-        
+
         //double randomResult = rand.NextDouble();//it returns the random value from 0 to 1
         //int oneToTen = (int) (1 + (randomResult * 10));
         //Console.WriteLine(oneToTen);
@@ -93,47 +93,78 @@
         //    Console.WriteLine("Good evening!");
         //}
 
-        int time = Int32.Parse (Console.ReadLine());
-        if (time >= 5 && time < 9)
+        //int time = Int32.Parse (Console.ReadLine());
+        //if (time >= 5 && time < 9)
+        //{
+        //    if (time <= 7)
+        //    {
+        //        Console.WriteLine("Good early morning");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Good morning");
+        //    }
+        //}
+
+
+        //else if (time >= 9 && time < 16)
+        //{
+        //    Console.WriteLine("Good afternoon");
+        //    if (time <= 11)
+        //    {
+        //        Console.WriteLine("Good late morning");
+        //    }
+        //    else if (time >= 12 && time <= 13)
+        //    {
+        //        Console.WriteLine("Enjoy your lunch");
+        //    }
+
+        //}
+
+        //else if (time < 24 && time >= 0)
+        //{
+
+        //    Console.WriteLine("Good evening!");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Input is not valid");
+        //}
+
+        //if (true)
+        //{
+        //    Console.WriteLine("Logic from branch");
+        //}
+
+        //string val = "ACD";
+
+        //switch (val)
+        //{
+        //    case "BCD":
+        //        Console.WriteLine("BCD");
+        //        break;
+        //    case "ACD":
+        //        Console.WriteLine("AUY");
+        //        break;
+        //    default:
+        //        Console.WriteLine("Default");
+        //        break;
+        //}
+
+        bool condition1 = true;
+        bool condition2 = false;
+
+        if (condition1)
         {
-            if (time <= 7)
-            {
-                Console.WriteLine("Good early morning");
-            }
-            else
-            {
-                Console.WriteLine("Good morning");
-            }
+            Console.WriteLine("Print something");
         }
-
-
-        else if (time >= 9 && time < 16)
+        else if (condition2)
         {
-            Console.WriteLine("Good afternoon");
-            if (time <= 11)
-            {
-                Console.WriteLine("Good late morning");
-            }
-            else if (time >= 12 && time <= 13)
-            {
-                Console.WriteLine("Enjoy your lunch");
-            }
-               
-        }
-
-        else if (time < 24 && time >= 0)
-        {
-
-            Console.WriteLine("Good evening!");
+            Console.WriteLine("Print something more");
         }
         else
         {
-            Console.WriteLine("Input is not valid");
-        }
-
-        if (true)
-        {
-            Console.WriteLine("Logic from branch");
+            Console.WriteLine("Print something else");
         }
 
 

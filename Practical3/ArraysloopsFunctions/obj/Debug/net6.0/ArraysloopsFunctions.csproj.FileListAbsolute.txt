@@ -1,0 +1,15 @@
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.csproj.AssemblyReference.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.AssemblyInfoInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.AssemblyInfo.cs
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.csproj.CoreCompileInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\bin\Debug\net6.0\ArraysloopsFunctions.exe
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\bin\Debug\net6.0\ArraysloopsFunctions.deps.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\bin\Debug\net6.0\ArraysloopsFunctions.runtimeconfig.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\bin\Debug\net6.0\ArraysloopsFunctions.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\bin\Debug\net6.0\ArraysloopsFunctions.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\refint\ArraysloopsFunctions.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ArraysloopsFunctions.genruntimeconfig.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Practical3\ArraysloopsFunctions\obj\Debug\net6.0\ref\ArraysloopsFunctions.dll

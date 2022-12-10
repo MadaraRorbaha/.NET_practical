@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysloopsFunctions", "ArraysloopsFunctions.csproj", "{2597FA02-C0FA-46C3-8866-F3FE5BC3C474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2597FA02-C0FA-46C3-8866-F3FE5BC3C474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2597FA02-C0FA-46C3-8866-F3FE5BC3C474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2597FA02-C0FA-46C3-8866-F3FE5BC3C474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2597FA02-C0FA-46C3-8866-F3FE5BC3C474}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1973D83A-192D-4937-AF1D-0CB33EE90A96}
+	EndGlobalSection
+EndGlobal
