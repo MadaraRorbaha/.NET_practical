@@ -1,5 +1,8 @@
-﻿using System.Net.NetworkInformation;
+﻿using System;
+using System.Data;
+using System.Net.NetworkInformation;
 using System.Runtime.CompilerServices;
+using System.Transactions;
 
 class Practical1
 {
@@ -39,12 +42,54 @@ class Practical1
 
         // Console.WriteLine("You entered : " + input);
         //Console.WriteLine("You entered : {0}", input);
+        //Console.WriteLine("Enter number");
+        //string number1str = Console.ReadLine();
+        //string number2str = Console.ReadLine();
+        //int number1 = Int32.Parse(number1str);
+        //int number2 = Int32.Parse(number2str);
+        //int result = number1 + number2;
+        //Console.WriteLine(result);
+
+
+        //Console.WriteLine("Enter the first number");
+        //string num1 = Console.ReadLine();
+        //Console.WriteLine("Enter the second number");
+        //string num2 = Console.ReadLine();
+        //int number1 = Int32.Parse(num1);
+        //int number2 = Int32.Parse(num2);
+        //int addition = number1 + number2;
+        //Console.WriteLine("Addition: " + addition);
+        //int subtraction = number1 - number2;
+        //Console.WriteLine("Substraction: " + subtraction);
+        //int multipliation = number1 * number2;
+        //Console.WriteLine("Multiplication: " + multipliation);
+        ////double numb1 = double.Parse(num1);
+        ////double numb2 = number2;
+        //int division = number2 / number1;
+        //Console.WriteLine("Division: " + division);
+
         Console.WriteLine("Enter number");
         string number1str = Console.ReadLine();
+
+        Console.WriteLine("Enter number2");
         string number2str = Console.ReadLine();
-        int number1 = Int32.Parse(number1str);
-        int number2 = Int32.Parse(number2str);
-        int result = number1 + number2;
-        Console.WriteLine(result);
+
+        double number1 = Double.Parse(number1str);
+        double number2 = Double.Parse(number2str);
+
+        double resultAdd = number1 + number2;
+        Console.WriteLine(number1 + " + " + number2 + " = " + resultAdd);
+
+        double resultSubstr = number1 - number2;
+        Console.WriteLine(number1 + " - " + number2 + " = " + resultSubstr);
+
+        double resultDiv = number1 / number2;
+        Console.WriteLine(number1 + " / " + number2 + " = " + resultDiv);
+
+        double resultMultip = number1 * number2;
+        Console.WriteLine(number1 + " * " + number2 + " = " + resultMultip);
+
+        resultDiv = Math.Round(resultDiv, 2);//round in two decimal places
+
     }
 }
