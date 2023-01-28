@@ -1,4 +1,7 @@
-﻿class Practical2
+﻿using System.Globalization;
+using System.Text;
+
+class Practical2
 {
     static void Main(string[] args)
     {
@@ -151,21 +154,90 @@
         //        break;
         //}
 
-        bool condition1 = true;
-        bool condition2 = false;
+        //bool condition1 = true;
+        //bool condition2 = false;
 
-        if (condition1)
+        //if (condition1)
+        //{
+        //    Console.WriteLine("Print something");
+        //}
+        //else if (condition2)
+        //{
+        //    Console.WriteLine("Print something more");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Print something else");
+        //}
+
+
+        //Console.WriteLine("Enter number");
+        //string num1str = Console.ReadLine();
+        //Console.WriteLine("Enter number again");
+        //string num2str = Console.ReadLine();
+        //int num1 = Int32.Parse(num1str);
+        //int num2 = Int32.Parse(num2str);
+        //Console.WriteLine("Enter character (*/%+-) to proceed the opeartion");
+        //string operation = Console.ReadLine();
+
+        ////bool invalidOperation = false;
+        //int result = 0;
+
+        //switch (operation) {
+        //    case "+":
+        //        result = num1 + num2;
+        //        break;
+        //    case "-":
+        //        result = num1 - num2;
+        //        break;
+        //    case "*":
+        //        result = num1 * num2;
+        //        break;
+        //    case "/":
+        //        result = num1 / num2;
+        //        break;
+        //    default:
+        //    //invalidOperation = true;
+        //    Console.WriteLine("Operation is not valid, please try again providing correct character.");
+        //    return;//exit the current method (program)
+        //}
+
+        ////if(!invalidOperation) 
+        //Console.WriteLine(num1 + operation + num2 + "=" + result);
+
+
+        //DateOnly date = new DateOnly();
+        //CultureInfo CurrentCulture = new CultureInfo("en-US");//reset the culture info for the program execution
+
+        CultureInfo ci = new CultureInfo("en-GB");
+
+        DateOnly date;
+        try
         {
-            Console.WriteLine("Print something");
+            Console.Write("Enter the date");
+            date = DateOnly.Parse(Console.ReadLine(), ci);
         }
-        else if (condition2)
+        catch 
         {
-            Console.WriteLine("Print something more");
+            Console.WriteLine("Date is wrong, please, try again");
         }
-        else
-        {
-            Console.WriteLine("Print something else");
-        }
+        int day = date.Day;
+        int month = date.Month;
+        int year = date.Year;
+
+        Console.WriteLine("Year : " + year + " , Month : " + month + " , Day : " + day);
+
+        //Convert.ToDateTime(date, ci);
+        //Console.WriteLine(date.Day + "." + date.Month + "." + date.Year);
+
+        //CultureInfo culture = CultureInfo.CurrentCulture;
+        //Console.WriteLine(culture.Name);
+
+        //Console.InputEncoding = Encoding.UTF8;
+        //Console.OutputEncoding= Encoding.UTF8;
+        //const char CAPRICORN = '\u2651';
+
+        //Console.WriteLine(CAPRICORN);
 
 
     }

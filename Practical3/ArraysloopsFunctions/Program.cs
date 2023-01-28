@@ -1,6 +1,6 @@
 ﻿class Practical3 {
 
-    static void Main(String[] args) 
+    static void Main(String[] args)
     {
         //Console.WriteLine(args[0]);
         //Console.WriteLine(args[1]);
@@ -62,18 +62,96 @@
         //    Console.WriteLine("Hello");
         //}
 
-        Console.WriteLine("Enter the size of the array");
-        int arraySize = Int32.Parse(Console.ReadLine());
+        ///bool correctSize = false;
+        ///for(; !correctSize;){
+        ///Int32.TryParse(...) == true){
+        ///correctSize = true;
+        ///}
+        ///
+
+        //string val = "Something";
+
+        int arraySize = 0;
+        //bool arraySizeNotProvided = true;
+        //bool arraySizeNotProvided = true;
+
+        //for (; arraySizeNotProvided;)
+
+        //while (arraySizeNotProvided) //while (true) or for (; ;)
+        //{ 
+        //try
+        //    {
+        //        Console.WriteLine("Enter the size of the array");
+        //        arraySize = Int32.Parse(Console.ReadLine());
+        //        //arraySizeNotProvided = false;
+        //        break;//goes out of the loop
+        //    }
+        //catch
+        //    {
+        //    Console.WriteLine("Number provided is not valid");
+        //    }
+        //}
+
+        //string[] elements = new string[arraySize];
+
+        //var valDouble = 6;
+
+        //for (int i = 0; i < arraySize; i++)
+        //    //for (int i = 0; i < elements.Lenght; i++)//the same 
+        //    {
+        //    Console.WriteLine("Enter the element" + i);
+        //    string element = Console.ReadLine();
+        //    elements[i] = element;
+        //}
+
+        //int i = 0;
+        //while (i < elements.Length)
+        //{
+        //    Console.WriteLine("Enter the element" + i);
+        //    string element = Console.ReadLine();
+        //    elements[i] = element;
+        //    i++;
+        //}
+
+
+        //i = 0;
+        //for (int i = 0; i < arraySize; i++)
+        //{
+        //    Console.WriteLine(elements[i]);
+        //}
+
+        bool arraySizeProvided = true;
+        do
+        {
+            try
+            {
+                Console.WriteLine("Enter the size of the array");
+                arraySize = Int32.Parse(Console.ReadLine());
+                //break;//goes out of the loop
+                arraySizeProvided = true;
+            }
+            catch
+            {
+                Console.WriteLine("Number provided is not valid");
+                arraySizeProvided = false;// point out to the error in catch
+            }
+            Console.WriteLine("Hello world");
+        }
+        while (!arraySizeProvided);//while condition will focus on the error
         string[] elements = new string[arraySize];
 
-        for (int i = 0; i < arraySize; i++)
-            //for (int i = 0; i < arraySize; i++)//the same 
-            {
+        for (int i = 0; i < arraySize; i++)//the same 
+        {
             Console.WriteLine("Enter the element" + i);
             string element = Console.ReadLine();
             elements[i] = element;
         }
-        Console.WriteLine(elements);
+
+        foreach (var element in elements)
+        {
+            Console.WriteLine(element);
+        }
+
     }
 
 }

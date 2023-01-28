@@ -1,0 +1,15 @@
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.csproj.AssemblyReference.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.AssemblyInfoInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.AssemblyInfo.cs
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.csproj.CoreCompileInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\bin\Debug\net6.0\Officer.exe
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\bin\Debug\net6.0\Officer.deps.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\bin\Debug\net6.0\Officer.runtimeconfig.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\bin\Debug\net6.0\Officer.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\bin\Debug\net6.0\Officer.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\refint\Officer.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\Officer.genruntimeconfig.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\Officer\Officer\obj\Debug\net6.0\ref\Officer.dll
