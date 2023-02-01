@@ -3,19 +3,19 @@
 class Program
 {
 
-    static string[] pos = new string[10] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" }; // Array that contains board positions, 0 isnt used --------------------------------
+    static string[] arr = new string[10] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" }; // Array that contains board positions, 0 isnt used --------------------------------
 
     static void DrawBoard() // Draw board method ==========================================
     {
         Console.WriteLine("\n");
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", pos[1], pos[2], pos[3]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[1], arr[2], arr[3]);
         Console.WriteLine("_____|_____|_____ ");
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", pos[4], pos[5], pos[6]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[4], arr[5], arr[6]);
         Console.WriteLine("_____|_____|_____ ");
         Console.WriteLine("     |     |      ");
-        Console.WriteLine("  {0}  |  {1}  |  {2}", pos[7], pos[8], pos[9]);
+        Console.WriteLine("  {0}  |  {1}  |  {2}", arr[7], arr[8], arr[9]);
         Console.WriteLine("     |     |      ");
         Console.WriteLine("\n");
     }
@@ -90,7 +90,7 @@ class Program
 
                 if (turn == 1)
                 {
-                    if (pos[choice] == "X") // Checks to see if spot is taken already --------------------
+                    if (arr[choice] == "X") // Checks to see if spot is taken already --------------------
                     {
                         Console.WriteLine("You can't steal positions :)! ");
                         Console.Write("Try again.");
@@ -100,12 +100,12 @@ class Program
                     }
                     else
                     {
-                        pos[choice] = "O";
+                        arr[choice] = "O";
                     }
                 }
                 if (turn == 2)
                 {
-                    if (pos[choice] == "O") // Checks to see if spot is taken already -------------------
+                    if (arr[choice] == "O") // Checks to see if spot is taken already -------------------
                     {
                         Console.WriteLine("You can't steal positions :)! ");
                         Console.Write("Try again.");
@@ -115,7 +115,7 @@ class Program
                     }
                     else
                     {
-                        pos[choice] = "X";
+                        arr[choice] = "X";
                     }
                 }
 
@@ -141,7 +141,7 @@ class Program
 
             for (int i = 1; i < 10; i++) // Resets board ------------------------
             {
-                pos[i] = i.ToString();
+                arr[i] = i.ToString();
             }
 
             if (winFlag == false) // No one won ---------------------------
@@ -291,72 +291,72 @@ class Program
 
     static bool CheckWin() // Win checker method ================================================
     {
-        if (pos[1] == "O" && pos[2] == "O" && pos[3] == "O") // Horizontal ----------------------------------------
+        if (arr[1] == "O" && arr[2] == "O" && arr[3] == "O") // Horizontal ----------------------------------------
         {
             return true;
         }
-        else if (pos[4] == "O" && pos[5] == "O" && pos[6] == "O")
+        else if (arr[4] == "O" && arr[5] == "O" && arr[6] == "O")
         {
             return true;
         }
-        else if (pos[7] == "O" && pos[8] == "O" && pos[9] == "O")
-        {
-            return true;
-        }
-
-        else if (pos[1] == "O" && pos[5] == "O" && pos[9] == "O") // Diagonal -----------------------------------------
-        {
-            return true;
-        }
-        else if (pos[7] == "O" && pos[5] == "O" && pos[3] == "O")
+        else if (arr[7] == "O" && arr[8] == "O" && arr[9] == "O")
         {
             return true;
         }
 
-        else if (pos[1] == "O" && pos[4] == "O" && pos[7] == "O")// Coloumns ------------------------------------------
+        else if (arr[1] == "O" && arr[5] == "O" && arr[9] == "O") // Diagonal -----------------------------------------
         {
             return true;
         }
-        else if (pos[2] == "O" && pos[5] == "O" && pos[8] == "O")
-        {
-            return true;
-        }
-        else if (pos[3] == "O" && pos[6] == "O" && pos[9] == "O")
+        else if (arr[7] == "O" && arr[5] == "O" && arr[3] == "O")
         {
             return true;
         }
 
-        if (pos[1] == "X" && pos[2] == "X" && pos[3] == "X") // Horizontal ----------------------------------------
+        else if (arr[1] == "O" && arr[4] == "O" && arr[7] == "O")// Coloumns ------------------------------------------
         {
             return true;
         }
-        else if (pos[4] == "X" && pos[5] == "X" && pos[6] == "X")
+        else if (arr[2] == "O" && arr[5] == "O" && arr[8] == "O")
         {
             return true;
         }
-        else if (pos[7] == "X" && pos[8] == "X" && pos[9] == "X")
-        {
-            return true;
-        }
-
-        else if (pos[1] == "X" && pos[5] == "X" && pos[9] == "X") // Diagonal -----------------------------------------
-        {
-            return true;
-        }
-        else if (pos[7] == "X" && pos[5] == "X" && pos[3] == "X")
+        else if (arr[3] == "O" && arr[6] == "O" && arr[9] == "O")
         {
             return true;
         }
 
-        else if (pos[1] == "X" && pos[4] == "X" && pos[7] == "X") // Coloumns ------------------------------------------
+        if (arr[1] == "X" && arr[2] == "X" && arr[3] == "X") // Horizontal ----------------------------------------
         {
             return true;
         }
-        else if (pos[2] == "X" && pos[5] == "X" && pos[8] == "X")
+        else if (arr[4] == "X" && arr[5] == "X" && arr[6] == "X")
         {
             return true;
         }
-        else if (pos[3] == "X" && pos[6] == "X" && pos[9] == "X")
+        else if (arr[7] == "X" && arr[8] == "X" && arr[9] == "X")
+        {
+            return true;
+        }
+
+        else if (arr[1] == "X" && arr[5] == "X" && arr[9] == "X") // Diagonal -----------------------------------------
+        {
+            return true;
+        }
+        else if (arr[7] == "X" && arr[5] == "X" && arr[3] == "X")
+        {
+            return true;
+        }
+
+        else if (arr[1] == "X" && arr[4] == "X" && arr[7] == "X") // Coloumns ------------------------------------------
+        {
+            return true;
+        }
+        else if (arr[2] == "X" && arr[5] == "X" && arr[8] == "X")
+        {
+            return true;
+        }
+        else if (arr[3] == "X" && arr[6] == "X" && arr[9] == "X")
         {
             return true;
         }
