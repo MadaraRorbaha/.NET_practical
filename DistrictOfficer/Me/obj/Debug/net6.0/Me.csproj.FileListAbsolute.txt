@@ -1,0 +1,15 @@
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\bin\Debug\net6.0\Me.exe
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\bin\Debug\net6.0\Me.deps.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\bin\Debug\net6.0\Me.runtimeconfig.json
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\bin\Debug\net6.0\Me.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\bin\Debug\net6.0\Me.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.csproj.AssemblyReference.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.AssemblyInfoInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.AssemblyInfo.cs
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.csproj.CoreCompileInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\refint\Me.dll
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.pdb
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\Me.genruntimeconfig.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\Me\obj\Debug\net6.0\ref\Me.dll
