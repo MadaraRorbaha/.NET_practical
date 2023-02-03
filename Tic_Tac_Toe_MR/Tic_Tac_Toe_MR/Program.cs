@@ -3,9 +3,10 @@
 class Program
 {
 
-    static string[] arr = new string[10] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" }; // Array that contains board positions, 0 isnt used --------------------------------
+    static string[] arr = new string[10] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" }; //set an array for our game field, values are set from zero to nine
+                                                                                               //, 0 isnt used 
 
-    static void DrawBoard() // Draw board method ==========================================
+    static void DrawBoard() //redraws the board after the background is ready
     {
         Console.WriteLine("\n");
         Console.WriteLine("     |     |      ");
@@ -19,7 +20,7 @@ class Program
         Console.WriteLine("     |     |      ");
         Console.WriteLine("\n");
     }
-    static void Main(string[] args) // Main ==============================================
+    static void Main(string[] args) //set the entry point
     {
         string player1 = "", player2 = "";
         int choice = 0, turn = 1, score1 = 0, score2 = 0;

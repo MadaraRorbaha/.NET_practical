@@ -1,0 +1,5 @@
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\vvv\obj\Debug\net6.0\vvv.csproj.AssemblyReference.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\vvv\obj\Debug\net6.0\vvv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\vvv\obj\Debug\net6.0\vvv.AssemblyInfoInputs.cache
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\vvv\obj\Debug\net6.0\vvv.AssemblyInfo.cs
+C:\Users\madar\OneDrive\Documents\dotnetPractical\DistrictOfficer\vvv\obj\Debug\net6.0\vvv.csproj.CoreCompileInputs.cache
